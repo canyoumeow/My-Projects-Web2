@@ -1,0 +1,18 @@
+.parent {
+    height: 150vh;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    background-image:url(https://img.freepik.com/free-vector/blurred-valentine-s-day-wallpaper_23-2148819570.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    gap: 20px;
+}
+.parent > div {
+    display: flex;
+    font-size: 30px;
+    background-color: rgb(239, 185, 205);
+    border: dashed 3px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
